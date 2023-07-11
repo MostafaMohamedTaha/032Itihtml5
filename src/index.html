@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Day 2 Assignment</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./dist/output.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <header>
+        <section
+            class="bg-center bg-no-repeat bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')] bg-gray-700 bg-blend-multiply">
+            <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
+                <div class="text-5xl grid align-middle justify-center text-white">mostafa taha</div>
+            </div>
+        </section>
+    </header>
+    <nav class="bg-slate-500 flex justify-center align-middle mx-auto">
+        <a class="text-2xl capitalize m-3 p-3 underline text-teal-400" href="index.html">Home</a>
+        <a class="text-2xl capitalize m-3 p-3 underline text-teal-400" href="./pages/contact.html">contact</a>
+        <a class="text-2xl capitalize m-3 p-3 underline text-teal-400" href="./pages/about.html">about</a>
+
+    </nav>
+    <article>
+        <form action="./pages/contact.html" method="get" class="grid justify-center p-3">
+            <input type="text" name="id" placeholder="id" hidden>
+            <label for="firstname">firstname</label>
+            <input type="text" name="firstname" placeholder="firstname" required>
+            <br>
+            <label for="lastname">lastname</label>
+            <input type="text" name="lastname" placeholder="lastname" required>
+            <br>
+            <label for="age">age</label>
+            <input type="text" name="age" placeholder="age" required>
+            <br>
+            <label for="address">address</label>
+            <input type="text" name="address" placeholder="address" required>
+            <br>
+            <label for="phone">phone</label>
+            <input type="phone" name="phone" placeholder="phone" required>
+            <label for="date">date</label>
+            <input type="date" name="date" placeholder="date" required>
+            <br>
+            <label for="faculty ">faculty : <a href="http://google.com"></a> </label>
+            <select name="faculty" id="faculty">
+                <option value="faculty1" selected>stanford</option>
+                <option value="faculty1">harvard</option>
+                <option value="faculty1">cambridge</option>
+            </select>
+            <br>
+            <fieldset class="border-2 text-2xl p-3 ">
+                <legend>hobbies</legend>
+                <ul>
+                    <li><input type="checkbox" name="programming" id="programming"> programming</li>
+                    <li><input type="checkbox" name="reading" id="reading"> reading</li>
+                </ul>
+            </fieldset>
+            <label for="gender">gender</label>
+            <ul>
+                <li><input type="radio" name="gender">Male</li>
+                <li><input type="radio" name="gender">Female</li>
+            </ul>
+            <label for="mail">mail</label>
+            <input type="email" name="email" id="email" placeholder="enter your email" required>
+            <textarea name="enter" id="" cols="30" rows="10" placeholder="enter text here" class="border-2"></textarea>
+            <label for="copyright">copyright &copy; iti mostafa taha 2023</label>
+            
+            <div><input type="checkbox" name="swimming" id="swimming"> check to submit</div>
+            <br>
+            <button value="submit" class="border-2 p-2 bg-orange-400 ">submit</button>
+            <button type="reset" class="border-2 p-2 bg-orange-400 ">reset</button>
+        </form>
+
+    </article>
+    <footer>
+        <div
+            class="bg-center bg-no-repeat bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')] bg-gray-700 bg-blend-multiply ">
+            <a href="#" class="text-center flex justify-center align-middle p-3">
+                <span class="text-5xl text-white text-center">back to top</span>
+            </a>
+        </div>
+    </footer>
+    <section class="mx-auto w-full p-3">
+        <section class="grid grid-cols-4 ">
+            <section class="col-span-1 bg-slate-600 grid justify-center align-middle">
+                <div class="w-full">
+                    <form action="contact.html" method="get" class="grid justify-center">
+                        <label for="firstname">firstname</label>
+                        <input type="text" name="firstname" placeholder="firstname" required>
+                        <br>
+                        <label for="lastname">lastname</label>
+                        <input type="text" name="lastname" placeholder="lastname" required>
+                        <label for="password">password</label>
+                        <input type="text" name="password" placeholder="password" required>
+                        <label for="repeat">repeat</label>
+                        <input type="text" name="repeat" placeholder="repeat" required>
+                        <input type="checkbox" name="swimming" id="swimming">
+                        <button value="submit" class="border-2 p-2 bg-orange-400 ">submit</button>
+                    </form>
+                </div>
+                <div class="grid text-center text-white justify-center align-middle">
+                    <h1>pages online</div>
+                        <img src="http://picsum.photos/300/300" alt="" class="rounded-xl mb-2 mt-2">
+                        <img src="http://picsum.photos/300/300" alt="" class="rounded-xl mb-2 mt-2">
+                </div>
+                <div class="object-cover w-full">
+                    <iframe src="https://www.iti.gov.eg/"></iframe>
+                </div>
+            </section>
+            <section class="col-span-2 bg-slate-500">
+                <div>
+                    <section class="grid justify-center max-w-[1200px] mx-auto">
+                        <h1 class="text-center text-4xl text-teal-400 m-3">Mostafa Taha</h1>
+                        <section class="grid grid-cols-2 max-w-[1200px] mx-auto">
+                            <div class="float-left col-span-1">
+                                <ul class="list-decimal text-yellow-100">
+                                    <li>Fullname : mostafa taha</li>
+                                    <li>address : cairo egypt</li>
+                                    <li>phone : 000-000-000</li>
+                                    <li>Faculty : <a href="http://www.google.com"></a></li>
+                                    <li>graduation year :2021</li>
+                                    <li> hobbies
+                                        <ul>
+                                            <li>Sport</li>
+                                            <li>Reading</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://www.google.com" class="text-teal-400"> Send Email</a> (Mail Link)</li>
+                                </ul>
+                            </div>
+        
+                            <div class="float-right col-span-1">
+                                <img src="http://picsum.photos/200/200" alt="personal photo"
+                                    class="flex justify-end m-3 rounded-3xl">
+                            </div>
+                        </section>
+                    </section>
+                </div>
+            </section>
+            <section class="col-span-1 bg-slate-600 grid align-middle justify-center ">
+                <div>
+                    <iframe src="https://www.iti.gov.eg/" class="h-[1000px] mt-3"></iframe>
+                </div>
+            </section>
+                
+
+        </section>
+            
+        
+            <!-- <div>
+                <form action="about.html" method="get" class="grid justify-center p-3">
+                    <label for="firstname">firstname</label>
+                    <input type="text" name="firstname" placeholder="firstname" required>
+                    <br>
+                    <label for="lastname">lastname</label>
+                    <input type="text" name="lastname" placeholder="lastname" required>
+                    <label for="password">password</label>
+                    <input type="text" name="password" placeholder="password" required>
+                    <label for="repeat">repeat</label>
+                    <input type="text" name="repeat" placeholder="repeat" required>
+                    <input type="checkbox" name="swimming" id="swimming">
+                    <button value="submit" class="border-2 p-2 bg-orange-400 ">submit</button>
+                </form>
+            </div> -->
+        
+        
+        
+            <!-- <div class="grid justify-center">
+                <h1>pages online</div>
+                    <img src="http://picsum.photos/200/200" alt="" class="p-2 rounded-xl">
+                    <img src="http://picsum.photos/200/200" alt="" class="p-2 rounded-xl">
+            </div>
+         -->
+        
+            <!-- <iframe src="https://www.iti.gov.eg/"></iframe> -->
+        
+        
+        
+            <!-- <span>
+                <section class="grid justify-center max-w-[1200px] mx-auto">
+                    <h1 class="text-center text-4xl text-teal-400 m-3">Mostafa Taha</h1>
+                    <section class="grid grid-cols-2 max-w-[1200px] mx-auto">
+                        <div class="float-left">
+                            <ul class="list-decimal">
+                                <li>Fullname : mostafa taha</li>
+                                <li>address : cairo egypt</li>
+                                <li>phone : 000-000-000</li>
+                                <li>Faculty : <a href="http://www.google.com"></a></li>
+                                <li>graduation year :2021</li>
+                                <li> hobbies
+                                    <ul>
+                                        <li>Sport</li>
+                                        <li>Reading</li>
+                                    </ul>
+                                </li>
+                                <li><a href="http://www.google.com" class="text-teal-400"> Send Email</a> (Mail Link)</li>
+                            </ul>
+                        </div>
+    
+                        <div class="float-right">
+                            <img src="http://picsum.photos/100/100" alt="personal photo"
+                                class="flex justify-end m-3 rounded-3xl">
+                        </div>
+                    </section>
+                </section>
+            </span> -->
+        
+        
+                <!-- <iframe src="https://www.iti.gov.eg/"></iframe> -->
+        
+        
+    </section>
+</body>
+
+</html>
+<!-- <form action="index.html" method="get">
+    <label for="firstname">firstname</label>
+    <input type="text" name="firstname" value="firstname" required>
+    <br>
+    <label for="lastname">lastname</label>
+    <input type="text" name="lastname" value="lastname" required>
+    <br>
+    <label for="age">age</label>
+    <input type="text" name="age" value="age" required>
+    <br>
+    <label for="address">address</label>
+    <input type="text" name="address" value="address" required>
+    <br>
+    <label for="phone">phone</label>
+    <input type="phone" name="phone" value="phone" required>
+    <br>
+    <label for="faculty ">faculty : <a href="http://google.com"></a> </label>
+    <select name="faculty" id="faculty">
+        <option value="faculty1" selected>stanford</option>
+        <option value="faculty1">harvard</option>
+        <option value="faculty1">cambridge</option>
+    </select>
+    <br>
+    <label for="hobbies">hobbies</label>
+    <input type="checkbox" name="programming" id="programming">
+    <input type="checkbox" name="reading" id="reading">
+    <input type="checkbox" name="swimming" id="swimming">
+    <label for="gender">gender</label>
+
+    <label for="mail">mail :<a href="http://google.com"></a></label>
+</form> -->
